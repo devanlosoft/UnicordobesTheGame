@@ -103,7 +103,9 @@ public class conexion : MonoBehaviour
             {
                 Debug.Log("Inicializando pergamino " + i + " con enunciado: " + DatosCompartidos.Fragmentos[i].enunciado);
                 //scriptInstancia.iniciar(i, fragmentos[i].enunciado);
-                scriptInstancia.iniciar(i, DatosCompartidos.Fragmentos[i].enunciado);
+                scriptInstancia.iniciar(i, DatosCompartidos.Fragmentos[i].enunciado, DatosCompartidos.Fragmentos[i].estado);
+
+                //
             }
             else
             {

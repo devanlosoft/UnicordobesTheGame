@@ -9,22 +9,64 @@ public static class DatosCompartidos
 {
     public static string Enunciado { get; set; } = "Enunciado inicial";
     public static List<Fragmento> Fragmentos { get; set; } = new List<Fragmento>();
+
+    public static string selectedArea;
+    public static string selectedTheme;
 }
 
 /// <summary>
+/// Represents a script that handles the functionality of a dropdown menu.
+/// </summary>
 public class DropdownCode : MonoBehaviour
 {
-    public TMP_Dropdown tmpDropdown; public TMP_Dropdown tmpDropdown1;
+    /// <summary>
+    /// The first dropdown component.
+    /// </summary>
+    public TMP_Dropdown tmpDropdown;
 
+    /// <summary>
+    /// The second dropdown component.
+    /// </summary>
+    public TMP_Dropdown tmpDropdown1;
+
+    /// <summary>
+    /// The list of areas.
+    /// </summary>
     private List<string> areas = new List<string>();
+
+    /// <summary>
+    /// The list of area IDs.
+    /// </summary>
     private List<string> areaIds = new List<string>();
+
+    /// <summary>
+    /// The dictionary that maps areas to their corresponding list of topics.
+    /// </summary>
     private Dictionary<string, List<string>> temasPorArea = new Dictionary<string, List<string>>();
 
+    /// <summary>
+    /// The base URL for API requests.
+    /// </summary>
     private string baseUrl = "http://localhost:8000/area";
+
+    /// <summary>
+    /// The URL for retrieving a specific problem.
+    /// </summary>
     private string traerProblema;
+
+    /// <summary>
+    /// The currently selected area.
+    /// </summary>
     public string areaSeleccionada;
+
+    /// <summary>
+    /// The currently selected topic.
+    /// </summary>
     public string temaSeleccionado;
 
+    /// <summary>
+    /// Initializes the dropdown menu and starts the coroutine to retrieve the areas.
+    /// </summary>
     void Start()
     {
         StartCoroutine(GetAreas());
@@ -32,11 +74,19 @@ public class DropdownCode : MonoBehaviour
         tmpDropdown1.onValueChanged.AddListener(delegate { DropdownTemaChanged(tmpDropdown1); });
     }
 
+    /// <summary>
+    /// Sets the URL for retrieving a specific problem based on the selected area and topic.
+    /// </summary>
+    /// <param name="areaSeleccionada">The selected area.</param>
+    ///     /// <param name="temaSeleccionado">The selected topic.</param>
     void selectEnpoint(string areaSeleccionada, string temaSeleccionado)
     {
         traerProblema = "http://localhost:8000/area/problema/" + areaSeleccionada + "/" + temaSeleccionado;
     }
 
+    /// <summary>
+    /// Coroutine that retrieves the areas from the API and updates the dropdown menu options.
+    /// </summary>
     IEnumerator GetAreas()
     {
         using (UnityWebRequest request = UnityWebRequest.Get(baseUrl))
@@ -70,10 +120,12 @@ public class DropdownCode : MonoBehaviour
             }
         }
 
-        // Obtener el enunciado desde otro endpoint o proceso
         StartCoroutine(GetEnunciado());
     }
 
+    /// <summary>
+    /// Coroutine that retrieves the problem details from the API and updates the shared data.
+    /// </summary>
     IEnumerator GetEnunciado()
     {
         using (UnityWebRequest request = UnityWebRequest.Get(traerProblema))
@@ -91,7 +143,6 @@ public class DropdownCode : MonoBehaviour
                 DatosCompartidos.Enunciado = datos["enunciado"];
                 Debug.Log("Enunciado obtenido: " + DatosCompartidos.Enunciado);
 
-                // Procesar y almacenar los fragmentos
                 DatosCompartidos.Fragmentos.Clear();
                 foreach (JSONNode fragmento in datos["fragmentos"].AsArray)
                 {
@@ -106,38 +157,54 @@ public class DropdownCode : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Event handler for when the area dropdown value changes.
+    /// </summary>
+    /// <param name="change">The dropdown component that triggered the event.</param>
     void DropdownAreaChanged(TMP_Dropdown change)
     {
         if (tmpDropdown1 != null && areaIds.Count > change.value)
         {
             tmpDropdown1.ClearOptions();
             string selectedAreaId = areaIds[change.value];
-            areaSeleccionada = selectedAreaId; // Actualizar la variable areaSeleccionada
+            areaSeleccionada = selectedAreaId;
             if (temasPorArea.ContainsKey(selectedAreaId))
             {
                 tmpDropdown1.AddOptions(temasPorArea[selectedAreaId]);
             }
             tmpDropdown1.value = 0;
-            // Actualizar temaSeleccionado con el primer tema de la nueva área seleccionada
             if (temasPorArea[selectedAreaId].Count > 0)
             {
                 temaSeleccionado = temasPorArea[selectedAreaId][0];
-                selectEnpoint(areaSeleccionada, temaSeleccionado); // Actualizar el endpoint
-                StartCoroutine(GetEnunciado()); // Obtener el enunciado para la selección inicial
+                selectEnpoint(areaSeleccionada, temaSeleccionado);
+                StartCoroutine(GetEnunciado());
+
+                DatosCompartidos.selectedArea = areaSeleccionada;
+                DatosCompartidos.selectedTheme = temaSeleccionado;
             }
         }
     }
 
+    /// <summary>
+    /// Event handler for when the topic dropdown value changes.
+    /// </summary>
+    /// <param name="change">The dropdown component that triggered the event.</param>
     void DropdownTemaChanged(TMP_Dropdown change)
     {
         if (temasPorArea[areaSeleccionada].Count > change.value)
         {
-            temaSeleccionado = temasPorArea[areaSeleccionada][change.value]; // Actualizar la variable temaSeleccionado
-            selectEnpoint(areaSeleccionada, temaSeleccionado); // Actualizar el endpoint
-            StartCoroutine(GetEnunciado()); // Obtener el enunciado para el tema seleccionado
+            temaSeleccionado = temasPorArea[areaSeleccionada][change.value];
+            selectEnpoint(areaSeleccionada, temaSeleccionado);
+            StartCoroutine(GetEnunciado());
+
+            DatosCompartidos.selectedArea = areaSeleccionada;
+            DatosCompartidos.selectedTheme = temaSeleccionado;
         }
     }
 
+    /// <summary>
+    /// Updates the options of the area dropdown menu.
+    /// </summary>
     void UpdateDropdownOptions()
     {
         if (tmpDropdown != null)

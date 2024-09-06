@@ -3,7 +3,7 @@ guid: d2e8f96c3bae8b44b8069f44284e2a84
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3852,187 +3871,186 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mujer_49: 1129580420
-      mujer_9: -1511657564
-      mujer_120: -1026947427
-      mujer_26: -2088144676
-      mujer_55: 1244901686
-      mujer_50: 1885122756
-      mujer_51: 1606444157
-      mujer_143: -540980556
-      mujer_99: -401628649
-      mujer_170: -994552833
-      mujer_64: -1848740051
-      mujer_116: 1763782706
-      mujer_129: 32212178
-      mujer_83: -1172045756
-      mujer_123: 342809841
-      mujer_126: -2032591185
-      mujer_12: 99033760
-      mujer_97: -639821672
-      mujer_145: -1886008164
-      mujer_149: 336863782
-      mujer_109: -1117132277
-      mujer_94: 1871931000
-      mujer_5: -1636203750
-      mujer_63: 1892027217
-      mujer_104: 932424659
-      mujer_115: 1273287080
-      mujer_151: -860476119
-      mujer_118: -1827429611
-      mujer_33: -1035966496
-      mujer_6: -1685755556
-      mujer_20: 487839825
-      mujer_114: 1229144062
-      mujer_157: 163179557
-      mujer_45: -1513934324
-      mujer_60: 505857262
-      mujer_89: -1708117389
-      mujer_166: 1418416215
-      mujer_135: 1957485962
-      mujer_16: -119780855
-      mujer_66: -436128968
-      mujer_150: -1399868803
-      mujer_106: -310348517
-      mujer_158: 3999441
-      mujer_87: -29343389
-      mujer_176: 2014210480
-      mujer_14: -889351380
-      mujer_76: 2047243532
-      mujer_84: -1036008868
-      mujer_153: 1294518262
-      mujer_137: -1662783547
-      mujer_113: 1205210842
-      mujer_154: 456827927
-      mujer_134: -947051000
-      mujer_8: -313931527
-      mujer_131: -162020662
-      mujer_133: -1130230183
-      mujer_47: 1031317785
-      mujer_13: -197268384
-      mujer_11: -1622559453
-      mujer_25: -912830679
+      caminarizq_1: 830778176
+      caminarizq_2: -1594007904
       caminarizq_3: 1615725528
-      mujer_85: 265204835
-      mujer_156: 1687856280
-      mujer_146: -1668032942
-      mujer_127: 1226351030
-      mujer_164: 1285029852
-      mujer_125: 1493621723
-      mujer_110: 1600609098
-      mujer_128: 450615702
-      mujer_82: 1789953184
-      mujer_161: -869609007
-      mujer_171: 1538862854
-      mujer_79: -1285014527
-      mujer_148: 1400548354
-      mujer_92: 2138803277
-      mujer_163: -1564305614
-      mujer_95: -351367540
-      mujer_121: -1338417464
-      mujer_130: 893420527
-      mujer_28: 317483919
-      mujer_23: 299051890
-      mujer_90: 1439536893
-      mujer_117: 1564115335
-      mujer_37: -521928460
-      mujer_112: 19357958
-      mujer_65: -216781928
-      mujer_159: -196128465
-      mujer_140: -1690691779
-      mujer_62: 957241921
-      mujer_162: 1020758976
-      mujer_160: 361524950
-      mujer_174: 1489152200
-      mujer_58: -1954654926
-      mujer_108: 1419910607
-      mujer_144: 1662171478
-      mujer_177: 234448509
-      mujer_17: 1033261944
       caminarizq_4: 297150217
-      mujer_2: -1614566254
-      mujer_173: -1884691410
-      mujer_18: -1930788559
+      caminarizq_5: -1265253899
+      caminarizq_6: -1062500970
+      caminarizq_7: -475350988
+      mujer_0: 1292335942
+      mujer_1: -2019427848
+      mujer_10: -256225342
+      mujer_100: 2018118977
+      mujer_101: -490934529
+      mujer_102: -162370921
+      mujer_103: 1425049147
+      mujer_104: 932424659
+      mujer_105: -293565818
+      mujer_106: -310348517
+      mujer_107: 1513580532
+      mujer_108: 1419910607
+      mujer_109: -1117132277
+      mujer_11: -1622559453
+      mujer_110: 1600609098
+      mujer_111: -959764099
+      mujer_112: 19357958
+      mujer_113: 1205210842
+      mujer_114: 1229144062
+      mujer_115: 1273287080
+      mujer_116: 1763782706
+      mujer_117: 1564115335
+      mujer_118: -1827429611
+      mujer_119: 188405632
+      mujer_12: 99033760
+      mujer_120: -1026947427
+      mujer_121: -1338417464
+      mujer_122: 1843027989
+      mujer_123: 342809841
+      mujer_124: 1399670414
+      mujer_125: 1493621723
+      mujer_126: -2032591185
+      mujer_127: 1226351030
+      mujer_128: 450615702
+      mujer_129: 32212178
+      mujer_13: -197268384
+      mujer_130: 893420527
+      mujer_131: -162020662
       mujer_132: -235218726
-      mujer_80: -441666047
+      mujer_133: -1130230183
+      mujer_134: -947051000
+      mujer_135: 1957485962
       mujer_136: 952655175
+      mujer_137: -1662783547
+      mujer_138: 1138592273
+      mujer_139: -1684951484
+      mujer_14: -889351380
+      mujer_140: -1690691779
+      mujer_141: -1131365443
+      mujer_142: 903542277
+      mujer_143: -540980556
+      mujer_144: 1662171478
+      mujer_145: -1886008164
+      mujer_146: -1668032942
+      mujer_147: 1678399203
+      mujer_148: 1400548354
+      mujer_149: 336863782
+      mujer_15: 1763542002
+      mujer_150: -1399868803
+      mujer_151: -860476119
+      mujer_152: -1968418040
+      mujer_153: 1294518262
+      mujer_154: 456827927
+      mujer_155: -697024694
+      mujer_156: 1687856280
+      mujer_157: 163179557
+      mujer_158: 3999441
+      mujer_159: -196128465
+      mujer_16: -119780855
+      mujer_160: 361524950
+      mujer_161: -869609007
+      mujer_162: 1020758976
+      mujer_163: -1564305614
+      mujer_164: 1285029852
+      mujer_165: -2093184417
+      mujer_166: 1418416215
+      mujer_167: 504878643
+      mujer_168: 370992382
+      mujer_169: 1473304011
+      mujer_17: 1033261944
+      mujer_170: -994552833
+      mujer_171: 1538862854
+      mujer_172: 1648885670
+      mujer_173: -1884691410
+      mujer_174: 1489152200
+      mujer_175: -931224594
+      mujer_176: 2014210480
+      mujer_177: 234448509
+      mujer_18: -1930788559
+      mujer_19: 61597037
+      mujer_2: -1614566254
+      mujer_20: 487839825
+      mujer_21: 1528963316
+      mujer_22: 78479785
+      mujer_23: 299051890
+      mujer_24: -751204153
+      mujer_25: -912830679
+      mujer_26: -2088144676
+      mujer_27: 1440343676
+      mujer_28: 317483919
+      mujer_29: 1189055589
+      mujer_3: -1470054792
+      mujer_30: 1540698064
+      mujer_31: -599558201
+      mujer_32: -1500588111
+      mujer_33: -1035966496
+      mujer_34: -1264525903
+      mujer_35: 1540539085
+      mujer_36: 846873183
+      mujer_37: -521928460
+      mujer_38: 848857650
+      mujer_39: 584065055
+      mujer_4: -1765565967
+      mujer_40: 1726838411
+      mujer_41: 281883347
+      mujer_42: -648370331
       mujer_43: 1790540891
       mujer_44: 776426715
-      mujer_168: 370992382
-      mujer_141: -1131365443
-      mujer_38: 848857650
-      mujer_68: 1856445659
-      mujer_138: 1138592273
-      mujer_10: -256225342
-      mujer_54: -793834161
-      caminarizq_1: 830778176
-      mujer_111: -959764099
-      mujer_77: 431736930
-      mujer_98: 556176689
-      mujer_40: 1726838411
-      mujer_34: -1264525903
-      mujer_122: 1843027989
-      mujer_169: 1473304011
-      mujer_93: -1914014149
-      mujer_142: 903542277
-      mujer_175: -931224594
-      caminarizq_5: -1265253899
-      mujer_41: 281883347
-      mujer_61: -1211644239
-      mujer_59: 1979813970
-      mujer_167: 504878643
-      mujer_91: -1035574001
-      mujer_124: 1399670414
-      mujer_105: -293565818
-      mujer_155: -697024694
-      mujer_81: 932314853
-      mujer_29: 1189055589
-      mujer_27: 1440343676
-      mujer_53: -732797990
-      mujer_24: -751204153
-      mujer_31: -599558201
-      mujer_7: -1453363882
-      caminarizq_6: -1062500970
-      mujer_103: 1425049147
-      mujer_15: 1763542002
-      mujer_36: 846873183
-      mujer_57: 642200149
-      mujer_30: 1540698064
-      mujer_67: -360371768
-      mujer_88: 1997377537
-      mujer_78: 1326226548
-      mujer_147: 1678399203
-      mujer_52: -973749496
-      mujer_165: -2093184417
-      mujer_4: -1765565967
-      mujer_0: 1292335942
-      mujer_32: -1500588111
+      mujer_45: -1513934324
       mujer_46: 393310005
-      mujer_86: 71280704
-      mujer_19: 61597037
-      mujer_22: 78479785
-      mujer_100: 2018118977
-      mujer_35: 1540539085
-      mujer_139: -1684951484
-      mujer_42: -648370331
-      mujer_172: 1648885670
+      mujer_47: 1031317785
       mujer_48: -1523258541
-      mujer_119: 188405632
-      mujer_101: -490934529
-      caminarizq_7: -475350988
+      mujer_49: 1129580420
+      mujer_5: -1636203750
+      mujer_50: 1885122756
+      mujer_51: 1606444157
+      mujer_52: -973749496
+      mujer_53: -732797990
+      mujer_54: -793834161
+      mujer_55: 1244901686
       mujer_56: 1761060581
-      mujer_152: -1968418040
-      caminarizq_2: -1594007904
-      mujer_102: -162370921
-      mujer_39: 584065055
-      mujer_1: -2019427848
-      mujer_21: 1528963316
-      mujer_107: 1513580532
-      mujer_3: -1470054792
+      mujer_57: 642200149
+      mujer_58: -1954654926
+      mujer_59: 1979813970
+      mujer_6: -1685755556
+      mujer_60: 505857262
+      mujer_61: -1211644239
+      mujer_62: 957241921
+      mujer_63: 1892027217
+      mujer_64: -1848740051
+      mujer_65: -216781928
+      mujer_66: -436128968
+      mujer_67: -360371768
+      mujer_68: 1856445659
+      mujer_7: -1453363882
+      mujer_76: 2047243532
+      mujer_77: 431736930
+      mujer_78: 1326226548
+      mujer_79: -1285014527
+      mujer_8: -313931527
+      mujer_80: -441666047
+      mujer_81: 932314853
+      mujer_82: 1789953184
+      mujer_83: -1172045756
+      mujer_84: -1036008868
+      mujer_85: 265204835
+      mujer_86: 71280704
+      mujer_87: -29343389
+      mujer_88: 1997377537
+      mujer_89: -1708117389
+      mujer_9: -1511657564
+      mujer_90: 1439536893
+      mujer_91: -1035574001
+      mujer_92: 2138803277
+      mujer_93: -1914014149
+      mujer_94: 1871931000
+      mujer_95: -351367540
       mujer_96: 87825165
-  spritePackingTag: 
+      mujer_97: -639821672
+      mujer_98: 556176689
+      mujer_99: -401628649
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

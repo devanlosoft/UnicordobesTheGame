@@ -3,7 +3,7 @@ guid: 28df2bd3a348e5f468e99a84d95ebb6e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -882,45 +889,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arboles_10: -1372226978
-      arboles_25: -591023645
-      arboles_17: -229748464
-      arboles_14: -803285751
-      arboles_31: -440721749
-      arboles_29: 1918219030
-      arboles_1: -881596579
-      arboles_8: 1017544262
       arboles_0: -563093738
-      arboles_22: 586975242
-      arboles_23: 1398850104
-      arboles_15: -1297792042
-      arboles_5: 1975090084
-      arboles_9: -1743962237
-      arboles_20: -1116378623
-      arboles_12: 181670124
-      arboles_16: 942642432
-      arboles_2: -1714842680
-      arboles_30: -2737860
-      arboles_3: 36524476
+      arboles_1: -881596579
+      arboles_10: -1372226978
       arboles_11: 613140880
-      arboles_35: 858972471
-      arboles_34: 1128495590
-      arboles_28: -1534319746
+      arboles_12: 181670124
       arboles_13: 1239948470
-      arboles_33: -481098265
-      arboles_21: 733247444
-      arboles_7: 2132486286
-      arboles_32: -808772196
-      arboles_4: -315146200
-      arboles_26: -1143081206
+      arboles_14: -803285751
+      arboles_15: -1297792042
+      arboles_16: 942642432
+      arboles_17: -229748464
       arboles_18: -1576200627
       arboles_19: -1904219596
+      arboles_2: -1714842680
+      arboles_20: -1116378623
+      arboles_21: 733247444
+      arboles_22: 586975242
+      arboles_23: 1398850104
       arboles_24: 1040501000
-      arboles_6: 334167786
+      arboles_25: -591023645
+      arboles_26: -1143081206
       arboles_27: 668119376
-  spritePackingTag: 
+      arboles_28: -1534319746
+      arboles_29: 1918219030
+      arboles_3: 36524476
+      arboles_30: -2737860
+      arboles_31: -440721749
+      arboles_32: -808772196
+      arboles_33: -481098265
+      arboles_34: 1128495590
+      arboles_35: 858972471
+      arboles_4: -315146200
+      arboles_5: 1975090084
+      arboles_6: 334167786
+      arboles_7: 2132486286
+      arboles_8: 1017544262
+      arboles_9: -1743962237
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -3,7 +3,7 @@ guid: 41f54589afcbb07408ed03853e3965ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3852,187 +3871,186 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Download3498_53: -1660056809
-      Download3498_171: 321369516
-      Download3498_131: -666516001
-      Download3498_10: 1699182418
-      Download3498_24: -416822230
-      Download3498_118: 794631688
-      Download3498_157: 2927263
-      Download3498_8: 1758034464
-      Download3498_150: -1199015793
-      Download3498_45: -1329774034
-      Download3498_176: 1642767412
-      Download3498_160: 1837940571
-      Download3498_111: -1939451852
-      Download3498_64: 978503501
-      Download3498_12: -2020967102
-      Download3498_148: -1563926528
-      Download3498_87: 329712934
-      Download3498_42: 1674299174
-      Download3498_151: 1516233436
-      Download3498_149: -1431616395
-      Download3498_41: 1966289643
-      Download3498_25: -2057291398
-      Download3498_109: -92905223
-      Download3498_91: 36615466
-      Download3498_30: -1240631915
-      Download3498_82: 803670527
-      Download3498_152: 1237711506
-      Download3498_59: 1850585149
-      Download3498_50: 1464872729
-      Download3498_110: -974572272
-      Download3498_119: 855782076
+      Download3498_0: -1870839815
       Download3498_1: 1628837494
-      Download3498_169: 745640294
-      Download3498_57: -257983128
-      Download3498_165: -1025702345
-      Download3498_106: 423016919
-      Download3498_90: -504802665
-      Download3498_29: 1506938920
-      Download3498_5: 1374858065
-      Download3498_83: 978549922
-      Download3498_55: -1282364354
-      Download3498_125: 1062621319
-      Download3498_44: 1715935796
-      Download3498_88: 919322616
-      Download3498_78: -2132816097
-      Download3498_61: -151002921
-      Download3498_89: -4156980
-      bailar_2: 1853894271
-      Download3498_108: -1533057265
-      Download3498_112: 1107764606
-      Download3498_17: -1258393733
-      Download3498_66: 1277355431
-      Download3498_134: -46666473
-      Download3498_39: -1448105963
-      Download3498_47: -1090933399
-      Download3498_107: -1759196526
-      Download3498_164: -1655550765
-      Download3498_86: -992051442
-      Download3498_132: -1469372319
-      bailar_3: 1319021014
-      Download3498_62: 326245416
-      Download3498_94: 125068256
-      Download3498_79: -2135895135
-      Download3498_76: -61454823
-      Download3498_43: -93625396
-      Download3498_115: -944277836
-      Download3498_114: 254686195
-      Download3498_167: -1411033492
-      Download3498_144: 1615275979
-      Download3498_126: -1199303991
-      Download3498_146: -1468173596
-      bailar_1: 1005734768
-      Download3498_177: -168519823
-      Download3498_122: 234513551
-      Download3498_81: 1413707266
-      Download3498_135: -1132852383
-      Download3498_117: -2060717865
-      Download3498_159: 1478394508
-      Download3498_18: -1571488460
-      Download3498_75: 1658547441
-      Download3498_51: 767636773
-      Download3498_113: 1898665196
-      Download3498_67: -1959592109
-      Download3498_153: 1785295178
-      Download3498_22: 320150281
-      Download3498_11: -1650140847
-      Download3498_158: 1282398774
-      Download3498_85: -2021931188
-      Download3498_155: 236528572
-      Download3498_95: 393144681
-      Download3498_52: -1609659575
-      Download3498_65: 1225028910
-      Download3498_136: -1429452393
-      Download3498_13: 1787902335
-      Download3498_46: -627384579
-      Download3498_127: 1393993061
-      Download3498_84: 552024331
-      Download3498_142: 1228015914
-      Download3498_129: -1910343431
-      Download3498_130: 2022370674
-      Download3498_6: 1636478189
-      Download3498_19: -1725126284
-      Download3498_56: 2061882776
-      Download3498_33: -638528937
-      Download3498_93: -2073011169
-      Download3498_54: -1387985934
-      Download3498_20: -115216217
-      Download3498_139: -1643734126
-      Download3498_175: -634451506
-      Download3498_123: 1813079577
-      Download3498_145: 1917802071
-      Download3498_141: -2001768296
-      Download3498_28: -720151407
-      cami_6: -1520193208
-      Download3498_68: 1165645974
-      cami_5: 174993772
-      Download3498_154: 1166964591
-      Download3498_21: 1470670523
-      Download3498_140: 1682596921
-      cami_1: 1982759677
-      Download3498_137: 1510168360
-      Download3498_77: 413544303
-      Download3498_133: 205002512
-      Download3498_92: 485903935
-      Download3498_14: 66734882
-      Download3498_40: -203709285
-      Download3498_38: -1482538614
-      Download3498_170: -107643834
-      Download3498_116: -1988982363
-      Download3498_7: -17045387
-      Download3498_63: -961969528
-      Download3498_4: -2077701267
-      Download3498_32: 1658637128
-      Download3498_36: 24869137
-      Download3498_166: 454102085
+      Download3498_10: 1699182418
+      Download3498_102: -1779212431
+      Download3498_103: 1891394820
       Download3498_104: 1121740500
+      Download3498_105: 2078959902
+      Download3498_106: 423016919
+      Download3498_107: -1759196526
+      Download3498_108: -1533057265
+      Download3498_109: -92905223
+      Download3498_11: -1650140847
+      Download3498_110: -974572272
+      Download3498_111: -1939451852
+      Download3498_112: 1107764606
+      Download3498_113: 1898665196
+      Download3498_114: 254686195
+      Download3498_115: -944277836
+      Download3498_116: -1988982363
+      Download3498_117: -2060717865
+      Download3498_118: 794631688
+      Download3498_119: 855782076
+      Download3498_12: -2020967102
+      Download3498_120: 644059055
+      Download3498_121: 1369743013
+      Download3498_122: 234513551
+      Download3498_123: 1813079577
+      Download3498_124: 1320839685
+      Download3498_125: 1062621319
+      Download3498_126: -1199303991
+      Download3498_127: 1393993061
+      Download3498_128: 1172731653
+      Download3498_129: -1910343431
+      Download3498_13: 1787902335
+      Download3498_130: 2022370674
+      Download3498_131: -666516001
+      Download3498_132: -1469372319
+      Download3498_133: 205002512
+      Download3498_134: -46666473
+      Download3498_135: -1132852383
+      Download3498_136: -1429452393
+      Download3498_137: 1510168360
       Download3498_138: -270877037
+      Download3498_139: -1643734126
+      Download3498_14: 66734882
+      Download3498_140: 1682596921
+      Download3498_141: -2001768296
+      Download3498_142: 1228015914
+      Download3498_143: 1197009151
+      Download3498_144: 1615275979
+      Download3498_145: 1917802071
+      Download3498_146: -1468173596
+      Download3498_147: -1496474243
+      Download3498_148: -1563926528
+      Download3498_149: -1431616395
+      Download3498_15: -509288036
+      Download3498_150: -1199015793
+      Download3498_151: 1516233436
+      Download3498_152: 1237711506
+      Download3498_153: 1785295178
+      Download3498_154: 1166964591
+      Download3498_155: 236528572
+      Download3498_156: 1247753035
+      Download3498_157: 2927263
+      Download3498_158: 1282398774
+      Download3498_159: 1478394508
+      Download3498_16: 358243005
+      Download3498_160: 1837940571
+      Download3498_161: -1458150578
+      Download3498_162: -872514430
+      Download3498_163: -1095895060
+      Download3498_164: -1655550765
+      Download3498_165: -1025702345
+      Download3498_166: 454102085
+      Download3498_167: -1411033492
+      Download3498_168: -32178211
+      Download3498_169: 745640294
+      Download3498_17: -1258393733
+      Download3498_170: -107643834
+      Download3498_171: 321369516
+      Download3498_172: -1484483386
+      Download3498_173: 1014356898
+      Download3498_174: -1342655815
+      Download3498_175: -634451506
+      Download3498_176: 1642767412
+      Download3498_177: -168519823
+      Download3498_18: -1571488460
+      Download3498_19: -1725126284
+      Download3498_2: 1815998519
+      Download3498_20: -115216217
+      Download3498_21: 1470670523
+      Download3498_22: 320150281
+      Download3498_23: 9707372
+      Download3498_24: -416822230
+      Download3498_25: -2057291398
+      Download3498_26: -1954657846
+      Download3498_27: 1468658059
+      Download3498_28: -720151407
+      Download3498_29: 1506938920
+      Download3498_3: -1601570536
+      Download3498_30: -1240631915
+      Download3498_31: -1203020903
+      Download3498_32: 1658637128
+      Download3498_33: -638528937
       Download3498_34: -943800153
+      Download3498_35: -1223570049
+      Download3498_36: 24869137
+      Download3498_37: -1942843930
+      Download3498_38: -1482538614
+      Download3498_39: -1448105963
+      Download3498_4: -2077701267
+      Download3498_40: -203709285
+      Download3498_41: 1966289643
+      Download3498_42: 1674299174
+      Download3498_43: -93625396
+      Download3498_44: 1715935796
+      Download3498_45: -1329774034
+      Download3498_46: -627384579
+      Download3498_47: -1090933399
+      Download3498_48: -225527986
+      Download3498_49: -1788661285
+      Download3498_5: 1374858065
+      Download3498_50: 1464872729
+      Download3498_51: 767636773
+      Download3498_52: -1609659575
+      Download3498_53: -1660056809
+      Download3498_54: -1387985934
+      Download3498_55: -1282364354
+      Download3498_56: 2061882776
+      Download3498_57: -257983128
+      Download3498_58: 551618257
+      Download3498_59: 1850585149
+      Download3498_6: 1636478189
+      Download3498_60: -2145009492
+      Download3498_61: -151002921
+      Download3498_62: 326245416
+      Download3498_63: -961969528
+      Download3498_64: 978503501
+      Download3498_65: 1225028910
+      Download3498_66: 1277355431
+      Download3498_67: -1959592109
+      Download3498_68: 1165645974
+      Download3498_7: -17045387
+      Download3498_75: 1658547441
+      Download3498_76: -61454823
+      Download3498_77: 413544303
+      Download3498_78: -2132816097
+      Download3498_79: -2135895135
+      Download3498_8: 1758034464
+      Download3498_80: -695033743
+      Download3498_81: 1413707266
+      Download3498_82: 803670527
+      Download3498_83: 978549922
+      Download3498_84: 552024331
+      Download3498_85: -2021931188
+      Download3498_86: -992051442
+      Download3498_87: 329712934
+      Download3498_88: 919322616
+      Download3498_89: -4156980
+      Download3498_9: -468381522
+      Download3498_90: -504802665
+      Download3498_91: 36615466
+      Download3498_92: 485903935
+      Download3498_93: -2073011169
+      Download3498_94: 125068256
+      Download3498_95: 393144681
+      bailar_1: 1005734768
+      bailar_2: 1853894271
+      bailar_3: 1319021014
+      bailar_4: -1723105835
+      bailar_5: -920309066
+      bailar_6: 240246221
+      cami_1: 1982759677
       cami_2: -806535586
       cami_3: -1270466727
-      Download3498_58: 551618257
-      Download3498_37: -1942843930
-      Download3498_31: -1203020903
-      bailar_4: -1723105835
-      Download3498_172: -1484483386
-      Download3498_27: 1468658059
-      Download3498_3: -1601570536
-      Download3498_15: -509288036
-      bailar_5: -920309066
-      Download3498_16: 358243005
-      Download3498_174: -1342655815
-      Download3498_124: 1320839685
-      Download3498_173: 1014356898
-      Download3498_2: 1815998519
-      Download3498_121: 1369743013
-      Download3498_128: 1172731653
-      Download3498_49: -1788661285
-      Download3498_60: -2145009492
-      Download3498_9: -468381522
-      Download3498_120: 644059055
-      Download3498_23: 9707372
-      Download3498_26: -1954657846
-      Download3498_147: -1496474243
-      Download3498_156: 1247753035
-      Download3498_103: 1891394820
       cami_4: -1087477512
-      Download3498_80: -695033743
-      bailar_6: 240246221
-      Download3498_102: -1779212431
-      Download3498_48: -225527986
-      Download3498_161: -1458150578
-      Download3498_0: -1870839815
-      Download3498_162: -872514430
-      Download3498_143: 1197009151
-      Download3498_163: -1095895060
-      Download3498_35: -1223570049
-      Download3498_168: -32178211
-      Download3498_105: 2078959902
-  spritePackingTag: 
+      cami_5: 174993772
+      cami_6: -1520193208
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

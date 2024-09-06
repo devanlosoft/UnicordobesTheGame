@@ -3,7 +3,7 @@ guid: 14a8f201fca92e34ca4baf04f541dac7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3852,187 +3871,186 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Download95717_169: -1405735825
-      Download95717_48: 1779232919
-      Download95717_115: 989052516
-      Download95717_20: 1640645459
-      Download95717_165: 519642879
-      Download95717_132: 1415450821
-      Download95717_53: 1767150028
-      Download95717_12: -1949218585
-      Download95717_24: -581207358
-      Download95717_172: -1384266799
-      Download95717_112: 1052550068
-      Download95717_68: 971241919
-      Download95717_113: -46868060
-      Download95717_56: -527912224
-      Download95717_142: -1508422489
-      cam_3: 665013412
-      Download95717_144: 470661625
-      Download95717_54: -2033640682
-      Download95717_13: 2088788269
-      Download95717_103: -691329618
-      Download95717_23: -890629805
-      Download95717_147: 598555204
-      Download95717_29: -1844496741
-      Download95717_62: -884797573
-      Download95717_85: -119488936
-      Download95717_157: -1125660582
-      Download95717_89: -1487949399
-      Download95717_110: -1346512889
-      Download95717_78: -906047064
-      Download95717_163: -1056376215
-      Download95717_95: -456466829
-      Download95717_10: -132702890
-      Download95717_107: -540300363
-      Download95717_146: 1567758662
-      Download95717_171: -945025037
-      Download95717_86: -1380503315
-      Download95717_109: -2016602608
-      Download95717_137: 1827266301
-      Download95717_150: -997118104
-      Download95717_141: -1413422084
-      Download95717_164: 133590901
-      Download95717_159: 1775872700
-      Download95717_14: 1407207213
-      Download95717_79: 48269402
-      Download95717_136: 147978319
-      Download95717_160: -842172799
-      Download95717_126: 1510706832
-      Download95717_156: -1789007780
-      Download95717_22: -872103630
-      Download95717_131: 2110763304
-      Download95717_158: -1643198252
-      Download95717_65: 1297660933
-      Download95717_94: 1933305937
-      Download95717_45: -767214526
-      Download95717_44: -1071942230
-      Download95717_11: -1375563171
-      Download95717_121: -846861490
-      Download95717_80: -125201490
-      Download95717_50: 756431641
-      Download95717_16: -797878027
-      Download95717_57: 1208420294
-      Download95717_170: -1424753070
-      cam_1: -630248023
-      Download95717_63: 15638196
-      Download95717_17: -371831851
-      Download95717_27: 892320868
-      Download95717_36: -649421288
-      Download95717_99: -293904416
-      Download95717_108: 385821680
-      Download95717_28: -2017138711
-      Download95717_117: -2124607755
-      Download95717_122: -442894844
-      Download95717_98: -1537735507
-      Download95717_153: 471049408
-      Download95717_81: 914444897
-      Download95717_140: -766159639
-      Download95717_39: 433750855
-      Download95717_166: 14896639
-      Download95717_37: 1098036659
-      Download95717_32: 339012722
-      Download95717_101: 2006969550
-      Download95717_139: 784793337
-      Download95717_41: -21033477
-      Download95717_168: -1551583134
-      Download95717_67: -1108051406
-      Download95717_130: 846861297
-      Download95717_148: 52001130
-      Download95717_116: 1914121259
-      Download95717_123: -927785738
-      Download95717_174: 1183527555
-      cam_4: -337136748
-      Download95717_127: -149134441
-      Download95717_176: 62472697
-      Download95717_31: -526432878
-      Download95717_167: 1085025449
-      cam_2: -109887826
-      Download95717_91: -1924603877
-      Download95717_3: 1975068338
-      Download95717_51: -906902699
-      Download95717_87: -281765734
-      Download95717_19: -277013983
-      Download95717_40: -11721553
-      Download95717_26: 404151324
-      Download95717_143: -1692470488
-      Download95717_25: -1981942712
-      Download95717_7: 1034806380
-      Download95717_145: -1457800442
-      Download95717_129: 2076224626
-      Download95717_5: 1433249725
-      Download95717_30: 1746871774
-      Download95717_134: -923312691
-      Download95717_8: 1141851402
-      Download95717_33: -37285603
-      Download95717_9: 21804859
-      Download95717_125: -1433425666
-      Download95717_1: -1278803658
-      Download95717_34: -678092194
-      Download95717_75: 1025577204
-      Download95717_35: 2044188474
-      Download95717_155: -1726606643
-      Download95717_120: -1853553892
       Download95717_0: 1310625382
-      Download95717_77: -835611516
-      Download95717_93: 1807867401
-      Download95717_88: 1796831164
-      Download95717_173: 499762452
-      Download95717_114: -1505112458
-      Download95717_46: -2216975
-      Download95717_64: 1619102207
-      Download95717_97: -1073006721
-      Download95717_4: 1593518800
-      Download95717_128: 590017545
-      Download95717_6: -96400297
-      Download95717_49: -1021430840
-      Download95717_2: -1383537662
-      Download95717_96: -1940178539
-      Download95717_175: 188661190
-      Download95717_61: -65374546
-      Download95717_92: 2084333579
-      Download95717_106: 33932407
-      Download95717_52: -1347271230
-      Download95717_15: -688839897
-      Download95717_162: -1127169082
-      Download95717_102: -502470270
-      Download95717_18: 1622535598
-      Download95717_119: 1862867939
-      Download95717_151: -1408924996
-      Download95717_104: 1071732726
-      Download95717_43: -1020933343
-      cam_7: 93204345
-      Download95717_47: 1117662858
-      cam_5: 1808370251
-      Download95717_149: 264870490
-      Download95717_84: 95066211
-      Download95717_59: 2096983760
-      Download95717_60: -110225905
-      Download95717_66: 1384652048
-      Download95717_58: 180914067
-      Download95717_111: -1805588232
-      Download95717_154: -650131466
-      Download95717_21: 1409950842
-      Download95717_133: 477252955
-      Download95717_38: 1867170065
-      Download95717_124: 2033251782
-      Download95717_118: -637890556
+      Download95717_1: -1278803658
+      Download95717_10: -132702890
       Download95717_100: 1491145102
-      Download95717_55: 2041737632
-      Download95717_76: -1457860279
-      Download95717_152: -426353057
-      Download95717_90: -1947176013
-      Download95717_177: 875656057
-      Download95717_83: 32493587
-      Download95717_42: 1970070853
-      Download95717_161: -761415345
-      Download95717_138: 789814170
+      Download95717_101: 2006969550
+      Download95717_102: -502470270
+      Download95717_103: -691329618
+      Download95717_104: 1071732726
       Download95717_105: 1530104998
+      Download95717_106: 33932407
+      Download95717_107: -540300363
+      Download95717_108: 385821680
+      Download95717_109: -2016602608
+      Download95717_11: -1375563171
+      Download95717_110: -1346512889
+      Download95717_111: -1805588232
+      Download95717_112: 1052550068
+      Download95717_113: -46868060
+      Download95717_114: -1505112458
+      Download95717_115: 989052516
+      Download95717_116: 1914121259
+      Download95717_117: -2124607755
+      Download95717_118: -637890556
+      Download95717_119: 1862867939
+      Download95717_12: -1949218585
+      Download95717_120: -1853553892
+      Download95717_121: -846861490
+      Download95717_122: -442894844
+      Download95717_123: -927785738
+      Download95717_124: 2033251782
+      Download95717_125: -1433425666
+      Download95717_126: 1510706832
+      Download95717_127: -149134441
+      Download95717_128: 590017545
+      Download95717_129: 2076224626
+      Download95717_13: 2088788269
+      Download95717_130: 846861297
+      Download95717_131: 2110763304
+      Download95717_132: 1415450821
+      Download95717_133: 477252955
+      Download95717_134: -923312691
       Download95717_135: -1524559589
+      Download95717_136: 147978319
+      Download95717_137: 1827266301
+      Download95717_138: 789814170
+      Download95717_139: 784793337
+      Download95717_14: 1407207213
+      Download95717_140: -766159639
+      Download95717_141: -1413422084
+      Download95717_142: -1508422489
+      Download95717_143: -1692470488
+      Download95717_144: 470661625
+      Download95717_145: -1457800442
+      Download95717_146: 1567758662
+      Download95717_147: 598555204
+      Download95717_148: 52001130
+      Download95717_149: 264870490
+      Download95717_15: -688839897
+      Download95717_150: -997118104
+      Download95717_151: -1408924996
+      Download95717_152: -426353057
+      Download95717_153: 471049408
+      Download95717_154: -650131466
+      Download95717_155: -1726606643
+      Download95717_156: -1789007780
+      Download95717_157: -1125660582
+      Download95717_158: -1643198252
+      Download95717_159: 1775872700
+      Download95717_16: -797878027
+      Download95717_160: -842172799
+      Download95717_161: -761415345
+      Download95717_162: -1127169082
+      Download95717_163: -1056376215
+      Download95717_164: 133590901
+      Download95717_165: 519642879
+      Download95717_166: 14896639
+      Download95717_167: 1085025449
+      Download95717_168: -1551583134
+      Download95717_169: -1405735825
+      Download95717_17: -371831851
+      Download95717_170: -1424753070
+      Download95717_171: -945025037
+      Download95717_172: -1384266799
+      Download95717_173: 499762452
+      Download95717_174: 1183527555
+      Download95717_175: 188661190
+      Download95717_176: 62472697
+      Download95717_177: 875656057
+      Download95717_18: 1622535598
+      Download95717_19: -277013983
+      Download95717_2: -1383537662
+      Download95717_20: 1640645459
+      Download95717_21: 1409950842
+      Download95717_22: -872103630
+      Download95717_23: -890629805
+      Download95717_24: -581207358
+      Download95717_25: -1981942712
+      Download95717_26: 404151324
+      Download95717_27: 892320868
+      Download95717_28: -2017138711
+      Download95717_29: -1844496741
+      Download95717_3: 1975068338
+      Download95717_30: 1746871774
+      Download95717_31: -526432878
+      Download95717_32: 339012722
+      Download95717_33: -37285603
+      Download95717_34: -678092194
+      Download95717_35: 2044188474
+      Download95717_36: -649421288
+      Download95717_37: 1098036659
+      Download95717_38: 1867170065
+      Download95717_39: 433750855
+      Download95717_4: 1593518800
+      Download95717_40: -11721553
+      Download95717_41: -21033477
+      Download95717_42: 1970070853
+      Download95717_43: -1020933343
+      Download95717_44: -1071942230
+      Download95717_45: -767214526
+      Download95717_46: -2216975
+      Download95717_47: 1117662858
+      Download95717_48: 1779232919
+      Download95717_49: -1021430840
+      Download95717_5: 1433249725
+      Download95717_50: 756431641
+      Download95717_51: -906902699
+      Download95717_52: -1347271230
+      Download95717_53: 1767150028
+      Download95717_54: -2033640682
+      Download95717_55: 2041737632
+      Download95717_56: -527912224
+      Download95717_57: 1208420294
+      Download95717_58: 180914067
+      Download95717_59: 2096983760
+      Download95717_6: -96400297
+      Download95717_60: -110225905
+      Download95717_61: -65374546
+      Download95717_62: -884797573
+      Download95717_63: 15638196
+      Download95717_64: 1619102207
+      Download95717_65: 1297660933
+      Download95717_66: 1384652048
+      Download95717_67: -1108051406
+      Download95717_68: 971241919
+      Download95717_7: 1034806380
+      Download95717_75: 1025577204
+      Download95717_76: -1457860279
+      Download95717_77: -835611516
+      Download95717_78: -906047064
+      Download95717_79: 48269402
+      Download95717_8: 1141851402
+      Download95717_80: -125201490
+      Download95717_81: 914444897
       Download95717_82: 999890394
-  spritePackingTag: 
+      Download95717_83: 32493587
+      Download95717_84: 95066211
+      Download95717_85: -119488936
+      Download95717_86: -1380503315
+      Download95717_87: -281765734
+      Download95717_88: 1796831164
+      Download95717_89: -1487949399
+      Download95717_9: 21804859
+      Download95717_90: -1947176013
+      Download95717_91: -1924603877
+      Download95717_92: 2084333579
+      Download95717_93: 1807867401
+      Download95717_94: 1933305937
+      Download95717_95: -456466829
+      Download95717_96: -1940178539
+      Download95717_97: -1073006721
+      Download95717_98: -1537735507
+      Download95717_99: -293904416
+      cam_1: -630248023
+      cam_2: -109887826
+      cam_3: 665013412
+      cam_4: -337136748
+      cam_5: 1808370251
+      cam_7: 93204345
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -20,7 +20,7 @@ public class ItemPorAgregar : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -54,9 +54,6 @@ public class ItemPorAgregar : MonoBehaviour
         GameObject objeto = GameObject.Find("escenapergaminos");
         pergaminoEliminar script = objeto.GetComponent<pergaminoEliminar>();
         script.Eliminar();
-
-
-        OnPlayerEnter?.Invoke(); // Lanza el evento cuando el jugador recoge el pergamino
 
 
     }

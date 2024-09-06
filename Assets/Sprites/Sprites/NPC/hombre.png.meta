@@ -3,7 +3,7 @@ guid: bb8aedd5de9796643ad7b241549927a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3957,192 +3976,191 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hombre_134: -859190105
-      hombre_87: 1199145453
-      hombre_38: -1033112688
-      hombre_133: 2004686177
-      hombre_161: -303683057
-      hombre_91: 1005726238
-      hombre_1: 130469332
-      hombre_18: 156915449
-      hombre_66: 821857981
-      hombre_37: -796492659
-      hombre_106: 989913274
-      hombre_116: -796257127
-      hombre_125: 1588018638
-      caminar_5: -284917973
-      hombre_28: -999867938
-      hombre_117: -517155390
-      hombre_142: 1348833632
-      hombre_164: 1287713607
-      hombre_68: 1133033626
-      hombre_163: -1703591690
-      hombre_101: 895068448
-      hombre_23: 1974182381
-      hombre_146: 1926191378
-      hombre_157: -141611576
-      caminar_2: 1162449992
-      hombre_150: 1560593101
-      hombre_175: 477609709
-      hombre_53: 1049607929
-      hombre_17: 181749952
-      hombre_128: -1662414572
-      hombre_180: -1363813940
-      caminar_6: -1322541557
-      hombre_69: -1679636976
-      hombre_88: 732722033
-      hombre_171: 564338778
-      hombre_42: 679886303
-      hombre_119: -738678692
-      hombre_89: 242108261
-      hombre_21: -969339050
-      hombre_174: 4335661
-      hombre_122: 269748395
-      hombre_62: -845063960
-      hombre_154: -1678585497
-      hombre_162: -336053497
-      hombre_166: -1007412109
       caminar_1: 1936532540
-      hombre_104: -83458219
-      hombre_10: 1031872261
-      hombre_29: -1851327779
-      hombre_34: 295440153
-      hombre_45: 1434371248
-      hombre_9: 1806313625
-      hombre_152: 15491431
-      hombre_149: -167137869
-      hombre_24: -186462311
-      hombre_178: -1327258250
-      hombre_6: -514076842
-      hombre_169: 1282528755
-      caminar_der_1: 851775322
-      hombre_64: 1881931887
-      hombre_124: 1801897556
-      hombre_63: 618352138
-      hombre_72: 1844226646
-      hombre_139: 415212884
-      caminar_der_4: -568638567
-      caminar_4: -1242697239
-      caminar_der_6: -1527635851
-      hombre_170: -1273483756
-      hombre_0: -2146610787
-      hombre_182: 1089603337
-      caminar_7: 57044029
-      hombre_121: 964821319
-      hombre_148: -1094347678
-      hombre_107: 612742243
-      caminar_8: 2062360239
-      hombre_135: 128267444
-      hombre_112: -761228469
-      hombre_109: -1753404674
-      hombre_55: 158069705
-      hombre_83: 1154651370
-      hombre_32: 341993178
-      hombre_54: 1414204995
-      hombre_60: 688759142
-      caminar_9: -1197523298
-      hombre_127: 1601816015
-      hombre_155: 317931703
-      hombre_136: -1935623548
-      hombre_50: 2099480403
-      hombre_5: -928055393
-      hombre_90: 835161563
-      hombre_46: -337739531
-      hombre_25: 576794034
-      hombre_140: -93230633
-      hombre_118: 294097851
-      hombre_58: -328422775
-      hombre_168: 1666176489
-      hombre_102: 1485794449
-      hombre_167: -708203289
-      hombre_177: -622417102
-      hombre_131: -852178319
-      hombre_40: 553324999
-      hombre_57: 1795267719
-      hombre_165: -1385595769
-      hombre_8: -1997433855
-      hombre_16: -1287346142
-      hombre_56: 596036749
-      hombre_111: -1689005382
-      hombre_52: -172087340
-      hombre_160: 247783551
-      hombre_181: 1651299798
-      hombre_114: 539909207
-      hombre_85: 877875106
-      hombre_35: 1210607800
-      hombre_141: 1852623117
-      hombre_147: 128504596
-      hombre_3: -778297697
-      hombre_41: -403341938
-      hombre_103: 556393273
+      caminar_2: 1162449992
       caminar_3: 2108836889
-      hombre_26: -1396923759
-      hombre_173: 648110905
-      hombre_44: -884105410
-      hombre_132: 1874090405
-      hombre_120: 891146341
-      hombre_13: 1832231942
-      hombre_123: 295821442
-      hombre_159: 1601887916
-      hombre_110: 351431515
-      hombre_129: 2066054166
-      hombre_179: -1359662945
-      hombre_12: 1292072451
-      hombre_59: -1402101702
-      hombre_144: 370769931
-      hombre_39: -1580981188
-      hombre_138: 940358783
-      hombre_19: -617631256
-      hombre_43: 326804719
-      hombre_48: 78905250
-      hombre_81: 539409610
-      hombre_126: 1500943848
-      caminar_der_3: 437578898
-      hombre_31: 286419639
-      hombre_36: 2024552350
-      hombre_30: -25186215
-      hombre_47: -495183104
-      hombre_2: 871313217
-      caminar_der_5: 504524281
-      hombre_143: 59462591
-      hombre_145: -1158731532
-      hombre_61: -2097163889
-      hombre_86: -346586579
-      hombre_4: 429718403
-      hombre_49: 971141090
-      hombre_84: -1130595870
-      hombre_20: -1457513831
-      hombre_71: -1626850131
-      hombre_137: 1720642598
-      hombre_176: -870827353
-      hombre_73: 1022295959
-      hombre_7: 53029002
-      hombre_33: 1450977244
-      hombre_115: -1385213509
-      hombre_172: -1085346088
-      hombre_14: -1644239628
-      hombre_130: 325199039
-      hombre_153: 765211619
-      hombre_51: 9989799
-      hombre_82: -1459284887
-      hombre_80: 664862164
-      hombre_70: 1085912760
-      hombre_156: 1164355154
-      hombre_158: -2137139058
+      caminar_4: -1242697239
+      caminar_5: -284917973
+      caminar_6: -1322541557
+      caminar_7: 57044029
+      caminar_8: 2062360239
+      caminar_9: -1197523298
+      caminar_der_1: 851775322
       caminar_der_2: -192527748
-      hombre_67: -448917716
-      hombre_108: 1734950050
-      hombre_65: -1762738115
-      hombre_11: 1172085570
-      hombre_113: 1570849669
-      hombre_15: -2091051356
-      hombre_22: 111307426
+      caminar_der_3: 437578898
+      caminar_der_4: -568638567
+      caminar_der_5: 504524281
+      caminar_der_6: -1527635851
+      hombre_0: -2146610787
+      hombre_1: 130469332
+      hombre_10: 1031872261
+      hombre_101: 895068448
+      hombre_102: 1485794449
+      hombre_103: 556393273
+      hombre_104: -83458219
       hombre_105: -1613807959
-      hombre_27: 15429845
+      hombre_106: 989913274
+      hombre_107: 612742243
+      hombre_108: 1734950050
+      hombre_109: -1753404674
+      hombre_11: 1172085570
+      hombre_110: 351431515
+      hombre_111: -1689005382
+      hombre_112: -761228469
+      hombre_113: 1570849669
+      hombre_114: 539909207
+      hombre_115: -1385213509
+      hombre_116: -796257127
+      hombre_117: -517155390
+      hombre_118: 294097851
+      hombre_119: -738678692
+      hombre_12: 1292072451
+      hombre_120: 891146341
+      hombre_121: 964821319
+      hombre_122: 269748395
+      hombre_123: 295821442
+      hombre_124: 1801897556
+      hombre_125: 1588018638
+      hombre_126: 1500943848
+      hombre_127: 1601816015
+      hombre_128: -1662414572
+      hombre_129: 2066054166
+      hombre_13: 1832231942
+      hombre_130: 325199039
+      hombre_131: -852178319
+      hombre_132: 1874090405
+      hombre_133: 2004686177
+      hombre_134: -859190105
+      hombre_135: 128267444
+      hombre_136: -1935623548
+      hombre_137: 1720642598
+      hombre_138: 940358783
+      hombre_139: 415212884
+      hombre_14: -1644239628
+      hombre_140: -93230633
+      hombre_141: 1852623117
+      hombre_142: 1348833632
+      hombre_143: 59462591
+      hombre_144: 370769931
+      hombre_145: -1158731532
+      hombre_146: 1926191378
+      hombre_147: 128504596
+      hombre_148: -1094347678
+      hombre_149: -167137869
+      hombre_15: -2091051356
+      hombre_150: 1560593101
       hombre_151: -1564723706
-  spritePackingTag: 
+      hombre_152: 15491431
+      hombre_153: 765211619
+      hombre_154: -1678585497
+      hombre_155: 317931703
+      hombre_156: 1164355154
+      hombre_157: -141611576
+      hombre_158: -2137139058
+      hombre_159: 1601887916
+      hombre_16: -1287346142
+      hombre_160: 247783551
+      hombre_161: -303683057
+      hombre_162: -336053497
+      hombre_163: -1703591690
+      hombre_164: 1287713607
+      hombre_165: -1385595769
+      hombre_166: -1007412109
+      hombre_167: -708203289
+      hombre_168: 1666176489
+      hombre_169: 1282528755
+      hombre_17: 181749952
+      hombre_170: -1273483756
+      hombre_171: 564338778
+      hombre_172: -1085346088
+      hombre_173: 648110905
+      hombre_174: 4335661
+      hombre_175: 477609709
+      hombre_176: -870827353
+      hombre_177: -622417102
+      hombre_178: -1327258250
+      hombre_179: -1359662945
+      hombre_18: 156915449
+      hombre_180: -1363813940
+      hombre_181: 1651299798
+      hombre_182: 1089603337
+      hombre_19: -617631256
+      hombre_2: 871313217
+      hombre_20: -1457513831
+      hombre_21: -969339050
+      hombre_22: 111307426
+      hombre_23: 1974182381
+      hombre_24: -186462311
+      hombre_25: 576794034
+      hombre_26: -1396923759
+      hombre_27: 15429845
+      hombre_28: -999867938
+      hombre_29: -1851327779
+      hombre_3: -778297697
+      hombre_30: -25186215
+      hombre_31: 286419639
+      hombre_32: 341993178
+      hombre_33: 1450977244
+      hombre_34: 295440153
+      hombre_35: 1210607800
+      hombre_36: 2024552350
+      hombre_37: -796492659
+      hombre_38: -1033112688
+      hombre_39: -1580981188
+      hombre_4: 429718403
+      hombre_40: 553324999
+      hombre_41: -403341938
+      hombre_42: 679886303
+      hombre_43: 326804719
+      hombre_44: -884105410
+      hombre_45: 1434371248
+      hombre_46: -337739531
+      hombre_47: -495183104
+      hombre_48: 78905250
+      hombre_49: 971141090
+      hombre_5: -928055393
+      hombre_50: 2099480403
+      hombre_51: 9989799
+      hombre_52: -172087340
+      hombre_53: 1049607929
+      hombre_54: 1414204995
+      hombre_55: 158069705
+      hombre_56: 596036749
+      hombre_57: 1795267719
+      hombre_58: -328422775
+      hombre_59: -1402101702
+      hombre_6: -514076842
+      hombre_60: 688759142
+      hombre_61: -2097163889
+      hombre_62: -845063960
+      hombre_63: 618352138
+      hombre_64: 1881931887
+      hombre_65: -1762738115
+      hombre_66: 821857981
+      hombre_67: -448917716
+      hombre_68: 1133033626
+      hombre_69: -1679636976
+      hombre_7: 53029002
+      hombre_70: 1085912760
+      hombre_71: -1626850131
+      hombre_72: 1844226646
+      hombre_73: 1022295959
+      hombre_8: -1997433855
+      hombre_80: 664862164
+      hombre_81: 539409610
+      hombre_82: -1459284887
+      hombre_83: 1154651370
+      hombre_84: -1130595870
+      hombre_85: 877875106
+      hombre_86: -346586579
+      hombre_87: 1199145453
+      hombre_88: 732722033
+      hombre_89: 242108261
+      hombre_9: 1806313625
+      hombre_90: 835161563
+      hombre_91: 1005726238
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

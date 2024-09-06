@@ -44,7 +44,7 @@ public class Inventario : MonoBehaviour
 
     public void AñadirItem(InventarioItem itemPorAñadir, int Cantidad)
     {
-        
+
         if (itemPorAñadir == null)
         {
             return;
@@ -52,10 +52,10 @@ public class Inventario : MonoBehaviour
 
         // Verificación de items en inventario
         List<int> indexes = VerificarExistencias(itemPorAñadir.ID);
-        
+
         if (itemPorAñadir.EsAcumulable)
         {
-           
+
             if (indexes.Count > 0)
             {
                 for (int i = 0; i < indexes.Count; i++)
@@ -94,7 +94,7 @@ public class Inventario : MonoBehaviour
         }
         else
         {
-           
+
             AñadirItemEnSlotDisponible(itemPorAñadir, Cantidad);
         }
     }
@@ -121,14 +121,15 @@ public class Inventario : MonoBehaviour
         {
             if (itemsInventario[i] == null)
             {
-                
+
                 itemsInventario[i] = item.CopiarItem();
                 itemsInventario[i].Cantidad = Cantidad;
                 InventarioUI inventarioUI = FindObjectOfType<InventarioUI>();
-               
+
                 if (inventarioUI != null)
                 {
                     inventarioUI.DibujarItemEnInventario(item, Cantidad, itemIndex: i);
+                    Debug.Log(itemsInventario[0]);
                 }
                 return;
             }
@@ -178,7 +179,7 @@ public class Inventario : MonoBehaviour
                 break;
         }
     }
-        
+
     private void OnEnable()
     {
         InventarioSlot.EventoSlotInteraccion += SlotInteraccionRespuesta;
