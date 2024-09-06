@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde8238c2993d2a458845da6b2ca1aaa, type: 3}
+  m_Name: ItemPergamino
+  m_EditorClassIdentifier: 
+  ID: Pergamino
+  Nombre: Pergamino
+  Icono: {fileID: -825049126, guid: fefa8c4675e3be44f82942ed216e8cb6, type: 3}
+  Descripcion: 
+  Tipo: 2
+  EsConsumible: 0
+  EsAcumulable: 0
+  AcumulacionMax: 1
+  Cantidad: 1
+  indicador: 0
