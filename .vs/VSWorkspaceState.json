@@ -4,9 +4,9 @@
     "\\Assets",
     "\\Assets\\Scripts",
     "\\Assets\\Scripts\\Inventario",
+    "\\Assets\\Scripts\\Inventario\\Items",
     "\\Assets\\Scripts\\textopergaminos",
     "\\Assets\\Tiles"
   ],
-  "SelectedNode": "\\Assets\\Scripts\\Inventario\\Inventario.cs",
   "PreviewInSolutionExplorer": false
 }

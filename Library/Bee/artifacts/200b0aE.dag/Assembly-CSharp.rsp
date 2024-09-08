@@ -425,6 +425,7 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/RestAPI/RestAPI.cs"
 "Assets/Scripts/RestAPI/SimpleJSON.cs"
+"Assets/Scripts/Salon_informatica/Tablero.cs"
 "Assets/Scripts/textopergaminos/conexion.cs"
 "Assets/Scripts/textopergaminos/pergamino.cs"
 "Assets/Scripts/textopergaminos/pergaminoEliminar.cs"

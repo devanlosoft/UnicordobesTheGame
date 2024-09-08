@@ -1,0 +1,1 @@
+Temp/ScriptUpdater/325267976/118331275_Tablero.cs => Assets/Scripts/Salon_informatica/Tablero.cs
