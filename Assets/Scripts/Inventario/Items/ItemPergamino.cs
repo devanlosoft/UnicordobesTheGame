@@ -4,6 +4,5 @@ public class ItemPergamino : InventarioItem
 {
     [Header("Pocion Info")]
     public float indicador;
-
     
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public enum TiposDeItem
 {
-    Armas, 
+    Armas,
     Pociones,
     Pergaminos,
     Ingredientes,
@@ -14,8 +14,13 @@ public class InventarioItem : ScriptableObject
     [Header("Parametros")]
     public string ID;
     public string Nombre;
+
+    public string Enunciado;
+
+    public string Estado;
+
     public Sprite Icono;
-    [TextArea]public string Descripcion;
+    [TextArea] public string Descripcion;
 
 
     [Header("Informacion")]

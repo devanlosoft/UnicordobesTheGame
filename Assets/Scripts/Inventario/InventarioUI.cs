@@ -35,6 +35,9 @@ public class InventarioUI : MonoBehaviour
     [SerializeField] private GameObject panelInventarioDescripcion;
     [SerializeField] private Image itemIcono;
     [SerializeField] private TextMeshProUGUI itemNombre;
+    [SerializeField] private TextMeshProUGUI itemEnunciado;
+
+    [SerializeField] private TextMeshProUGUI itemEstado;
     [SerializeField] private TextMeshProUGUI itemDescripcion;
 
     [SerializeField] private InventarioSlot slotPrefab;
@@ -101,12 +104,15 @@ public class InventarioUI : MonoBehaviour
         {
             itemIcono.sprite = Inventario.Instance.ItemsInventario[index].Icono;
             itemNombre.text = Inventario.Instance.ItemsInventario[index].Nombre;
-            itemDescripcion.text = Inventario.Instance.ItemsInventario[index].Descripcion;
+            itemDescripcion.text = DatosCompartidos.Fragmentos[index].enunciado;
+            //itemDescripcion.text = Inventario.Instance.ItemsInventario[index].Descripcion;
             panelInventarioDescripcion.SetActive(true);
+            Debug.Log("panel Descripcion activado");
         }
         else
         {
             panelInventarioDescripcion.SetActive(false);
+            Debug.Log("panel Descripcion desactivado");
         }
     }
 

@@ -19,6 +19,7 @@ public class pergamino : MonoBehaviour
     // Estado del pergamino.
     public string estado;
 
+
     // Componente de texto para mostrar la descripción del pergamino.
     public TextMeshProUGUI descripcion;
 

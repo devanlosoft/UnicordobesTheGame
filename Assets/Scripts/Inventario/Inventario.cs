@@ -75,6 +75,10 @@ public class Inventario : MonoBehaviour
                         {
                             inventarioUI.DibujarItemEnInventario(itemPorAñadir, itemsInventario[indexes[i]].Cantidad, itemIndex: indexes[i]);
                         }
+
+                        // Imprimir en consola
+                        Debug.Log($"Añadido {Cantidad} de {itemPorAñadir.name} al inventario en el índice {indexes[i]}.");
+
                         return;
                     }
                 }
@@ -124,6 +128,8 @@ public class Inventario : MonoBehaviour
 
                 itemsInventario[i] = item.CopiarItem();
                 itemsInventario[i].Cantidad = Cantidad;
+                itemsInventario[i].Enunciado = DatosCompartidos.Fragmentos[i].enunciado;
+                itemsInventario[i].Estado = DatosCompartidos.Fragmentos[i].estado;
                 InventarioUI inventarioUI = FindObjectOfType<InventarioUI>();
 
                 if (inventarioUI != null)
@@ -131,6 +137,10 @@ public class Inventario : MonoBehaviour
                     inventarioUI.DibujarItemEnInventario(item, Cantidad, itemIndex: i);
                     Debug.Log(itemsInventario[0]);
                 }
+
+                // Imprimir en consola
+                Debug.Log($"Añadido {Cantidad} de {item.name} al inventario en el índice {i}.");
+
                 return;
             }
         }
