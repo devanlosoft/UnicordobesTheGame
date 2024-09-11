@@ -6,6 +6,7 @@ using UnityEngine;
 public class Inventario : MonoBehaviour
 {
     private static Inventario instance;
+    public int code;
 
     public static Inventario Instance
     {
@@ -39,23 +40,35 @@ public class Inventario : MonoBehaviour
 
     private void Start()
     {
-        itemsInventario = new InventarioItem[numeroDeSlots];
+        if (itemsInventario == null || itemsInventario.Length == 0)
+        {
+            itemsInventario = new InventarioItem[numeroDeSlots];
+        }
+    }
+
+    private void Awake()
+    {
+        if (itemsInventario == null || itemsInventario.Length == 0)
+        {
+            itemsInventario = new InventarioItem[numeroDeSlots];
+        }
     }
 
     public void AñadirItem(InventarioItem itemPorAñadir, int Cantidad)
     {
-
         if (itemPorAñadir == null)
         {
+            Debug.Log("El item por añadir es nulo.");
             return;
         }
+
+        Debug.Log($"Añadiendo item: {itemPorAñadir.name}, Enunciado: {itemPorAñadir.Enunciado}, Estado: {itemPorAñadir.Estado}");
 
         // Verificación de items en inventario
         List<int> indexes = VerificarExistencias(itemPorAñadir.ID);
 
         if (itemPorAñadir.EsAcumulable)
         {
-
             if (indexes.Count > 0)
             {
                 for (int i = 0; i < indexes.Count; i++)
@@ -87,6 +100,7 @@ public class Inventario : MonoBehaviour
 
         if (Cantidad <= 0)
         {
+            Debug.Log("La cantidad a añadir es menor o igual a cero.");
             return;
         }
 
@@ -98,7 +112,6 @@ public class Inventario : MonoBehaviour
         }
         else
         {
-
             AñadirItemEnSlotDisponible(itemPorAñadir, Cantidad);
         }
     }
@@ -125,11 +138,13 @@ public class Inventario : MonoBehaviour
         {
             if (itemsInventario[i] == null)
             {
-
                 itemsInventario[i] = item.CopiarItem();
                 itemsInventario[i].Cantidad = Cantidad;
-                itemsInventario[i].Enunciado = DatosCompartidos.Fragmentos[i].enunciado;
-                itemsInventario[i].Estado = DatosCompartidos.Fragmentos[i].estado;
+
+                // Asignar enunciado y estado directamente del itemPorAñadir
+                itemsInventario[i].Enunciado = DatosCompartidos.Fragmentos[code].enunciado;
+                itemsInventario[i].Estado = DatosCompartidos.Fragmentos[code].estado;
+
                 InventarioUI inventarioUI = FindObjectOfType<InventarioUI>();
 
                 if (inventarioUI != null)

@@ -9,6 +9,8 @@ public class ItemPorAgregar : MonoBehaviour
     [SerializeField] private InventarioItem InventarioItemReferencia;
     [SerializeField] private int cantidadPorAgregar;
 
+    public Inventario inventario;
+
     public AudioSource audioSource;
     [SerializeField] private AudioClip clipAtaque;
 
@@ -37,6 +39,15 @@ public class ItemPorAgregar : MonoBehaviour
                 pergaminoEliminar script = objeto.GetComponent<pergaminoEliminar>();
                 script.codigo = ventana.codigo;
 
+                if (inventario != null)
+                {
+                    inventario.code = script.codigo;
+                }
+                else
+                {
+                    Debug.LogWarning("inventario es null");
+                }
+                
                 // Llamar al método MetodoB en ScriptB
                 ventana.cargarventana();
 

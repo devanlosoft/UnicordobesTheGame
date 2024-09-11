@@ -3,7 +3,59 @@
   "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Salon_informatica\\Tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\ItemPorAgregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\ItemPorAgregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\textopergaminos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\DropdownCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DropdownCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\pergamino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\textopergaminos\\pergamino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\InventarioItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\InventarioSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Managers\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventario\\InventarioUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\ZonaConfiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ZonaConfiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Ubicacion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Ubicacion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Fragmento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Fragmento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,17 +65,186 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tablero.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Salon_informatica\\Tablero.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Salon_informatica\\Tablero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ViewState": "AgIAADEAAAAA+v////8AwEwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:11:03.879Z",
+              "WhenOpened": "2024-09-11T18:00:28.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ZonaConfiner.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\ZonaConfiner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ZonaConfiner.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\ZonaConfiner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ZonaConfiner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T17:24:44.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ubicacion2.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Ubicacion2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ubicacion2.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Ubicacion2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ubicacion2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T17:24:43.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T17:24:42.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Fragmento.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Fragmento.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fragmento.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Fragmento.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fragmento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T17:24:40.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemPorAgregar.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
+              "ViewState": "AgIAAA4AAABAmpmZmZkewCYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:28:54.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\Inventario.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\Inventario.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\Inventario.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\Inventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T04:30:56.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventarioSlot.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\InventarioSlot.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\InventarioSlot.cs",
+              "ViewState": "AgIAACQAAABAMzMzM5MwwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:28:25.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventarioItem.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\InventarioItem.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\InventarioItem.cs",
+              "ViewState": "AgIAAAQAAAAAaGZmZuYcwB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:22:38.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DropdownCode.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\DropdownCode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DropdownCode.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\DropdownCode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DropdownCode.cs",
+              "ViewState": "AgIAAHsAAABQs5mZmVkqwJAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T05:26:00.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Dialogue.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Dialogue.cs",
+              "ViewState": "AgIAALYAAAAAFAAAAAD6v8gAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:22:27.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventarioUI.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventario\\InventarioUI.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\Inventario\\InventarioUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventario\\InventarioUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:28:52.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pergamino.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\pergamino.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\textopergaminos\\pergamino.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\pergamino.cs",
+              "RelativeToolTip": "Assets\\Scripts\\textopergaminos\\pergamino.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T05:25:25.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "conexion.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\conexion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\textopergaminos\\conexion.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\UnicordobesTheGame\\Assets\\Scripts\\textopergaminos\\conexion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\textopergaminos\\conexion.cs",
+              "ViewState": "AgIAAGEAAAAADAAAAADyv28AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T05:25:06.499Z",
               "EditorCaption": ""
             }
           ]

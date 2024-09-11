@@ -3,10 +3,15 @@
     "",
     "\\Assets",
     "\\Assets\\Scripts",
+    "\\Assets\\Scripts\\Dialogos",
+    "\\Assets\\Scripts\\FollowCamara",
     "\\Assets\\Scripts\\Inventario",
     "\\Assets\\Scripts\\Inventario\\Items",
     "\\Assets\\Scripts\\textopergaminos",
+    "\\Assets\\Scripts\\Waypoint",
+    "\\Assets\\Scripts\\Waypoint\\Editor",
     "\\Assets\\Tiles"
   ],
+  "SelectedNode": "\\Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
   "PreviewInSolutionExplorer": false
 }

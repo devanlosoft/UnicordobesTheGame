@@ -14,9 +14,7 @@ public class InventarioItem : ScriptableObject
     [Header("Parametros")]
     public string ID;
     public string Nombre;
-
     public string Enunciado;
-
     public string Estado;
 
     public Sprite Icono;
@@ -51,5 +49,6 @@ public class InventarioItem : ScriptableObject
     {
         return true;
     }
+
 
 }

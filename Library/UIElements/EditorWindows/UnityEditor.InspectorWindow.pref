@@ -34,10 +34,10 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-areaList.areas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas.Array.data[0].problemas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas.Array.data[0].problemas.Array.data[0].fragmentos__UnityEngine.UIElements.ListView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-areaList.areas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas.Array.data[0].problemas__unity-vertical-collection-scroll-view__unity-list-areaList.areas.Array.data[0].temas.Array.data[0].problemas.Array.data[0].fragmentos__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   m_Values:
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":765.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{}'
   - '{}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":528.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":54.0}'
   - '{}'
   - '{}'
   - '{}'

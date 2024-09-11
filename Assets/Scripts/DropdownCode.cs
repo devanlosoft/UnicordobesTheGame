@@ -9,6 +9,7 @@ public static class DatosCompartidos
 {
     public static string Enunciado { get; set; } = "Enunciado inicial";
     public static List<Fragmento> Fragmentos { get; set; } = new List<Fragmento>();
+    public static int NFragmentos { get; set; } = 0;
 
     public static string selectedArea;
     public static string selectedTheme;
@@ -153,6 +154,9 @@ public class DropdownCode : MonoBehaviour
                     };
                     DatosCompartidos.Fragmentos.Add(nuevoFragmento);
                 }
+
+                // Actualiza el número de fragmentos con el valor recibido del backend
+                DatosCompartidos.NFragmentos = datos["nfragmentos"].AsInt;
             }
         }
     }

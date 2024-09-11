@@ -87,6 +87,7 @@
     <Compile Include="Assets/Scripts/IA/Sistema IA/IAAccion.cs" />
     <Compile Include="Assets/Scripts/Waypoint/NPCMovimiento.cs" />
     <Compile Include="Assets/Scripts/Personaje/PersonajeVida.cs" />
+    <Compile Include="Assets/Scripts/Salon_informatica/Tablero.cs" />
     <Compile Include="Assets/Scripts/ZonaConfiner.cs" />
     <Compile Include="Assets/Scripts/FollowCamara/Follow.cs" />
     <Compile Include="Assets/Scripts/IA/EnemigoMovimiento.cs" />

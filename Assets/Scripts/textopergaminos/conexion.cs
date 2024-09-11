@@ -40,7 +40,6 @@ public class conexion : MonoBehaviour
     public GameObject pergamino;
     private GameObject[] referencias;
     public AreaList areaList;
-    public GameObject jugador; // Añade una referencia al jugador
 
     private void Awake()
     {
@@ -55,11 +54,7 @@ public class conexion : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            GenerarPergaminoEnJugador();
-            Debug.Log("tecla p pulsada.");
-        }
+   
     }
 
     IEnumerator LoadTextFromAPI()
@@ -125,32 +120,6 @@ public class conexion : MonoBehaviour
         }
     }
 
-
-    private void GenerarPergaminoEnJugador()
-
-    {
-        if (jugador == null)
-        {
-            Debug.LogError("El objeto 'jugador' no está asignado.");
-            return;
-        }
-
-        Vector3 posicionJugador = jugador.transform.position;
-        GameObject instancia = Instantiate(pergamino, posicionJugador, Quaternion.identity);
-        instancia.transform.localScale = new Vector3(12, 12, 2); // Ajustar la escala a 2,2,2
-        pergamino scriptInstancia = instancia.GetComponent<pergamino>();
-
-        if (scriptInstancia != null)
-        {
-            int i = DatosCompartidos.Fragmentos.Count; // Asigna un índice único
-            Debug.Log("Inicializando pergamino " + i + " con enunciado: " + DatosCompartidos.Fragmentos[i].enunciado);
-            scriptInstancia.iniciar(i, DatosCompartidos.Fragmentos[i].enunciado, DatosCompartidos.Fragmentos[i].estado);
-        }
-        else
-        {
-            Debug.LogError("El componente 'pergamino' no se encontró en la instancia.");
-        }
-    }
 
 
 
