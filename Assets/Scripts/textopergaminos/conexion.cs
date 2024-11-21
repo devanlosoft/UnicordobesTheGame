@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using TMPro;
 
-
 [System.Serializable]
 public class Problema
 {
@@ -54,7 +53,7 @@ public class conexion : MonoBehaviour
 
     void Update()
     {
-   
+
     }
 
     IEnumerator LoadTextFromAPI()
@@ -74,12 +73,11 @@ public class conexion : MonoBehaviour
                 Debug.Log("Respuesta de la API: " + jsonResponse);
                 areaList = JsonUtility.FromJson<AreaList>("{\"areas\":" + jsonResponse + "}");
                 Debug.Log("Datos deserializados correctamente.");
-                generarpergaminos();
             }
         }
     }
 
-    private void generarpergaminos()
+    public void GenerarPergaminos()
     {
         // Suponiendo que solo hay un área, un tema y un problema
         //var fragmentos = areaList.areas[0].temas[0].problemas[0].fragmentos;
@@ -87,7 +85,7 @@ public class conexion : MonoBehaviour
         // Asegúrate de que no intentas acceder a más fragmentos de los que existen
         int numFragmentos = DatosCompartidos.Fragmentos.Count;
         Debug.Log("Número de fragmentos a generar: " + numFragmentos);
-     
+
 
         // Crear una lista de índices de referencia y mezclarlos aleatoriamente
         List<int> indices = new List<int>();
@@ -110,8 +108,6 @@ public class conexion : MonoBehaviour
                 Debug.Log("Inicializando pergamino " + i + " con enunciado: " + DatosCompartidos.Fragmentos[i].enunciado);
                 //scriptInstancia.iniciar(i, fragmentos[i].enunciado);
                 scriptInstancia.iniciar(i, DatosCompartidos.Fragmentos[i].enunciado, DatosCompartidos.Fragmentos[i].estado);
-
-                
             }
             else
             {
@@ -119,9 +115,6 @@ public class conexion : MonoBehaviour
             }
         }
     }
-
-
-
 
     public string GetEnunciado(int index)
     {

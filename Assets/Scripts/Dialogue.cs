@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -11,28 +12,72 @@ public class Dialogue : MonoBehaviour
 
     private float typingTime = 0.05f;
 
+    private PersonajeVida personajeVida;
+    private conexion conexionScript;
+
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-    
-    
 
-    public string texto = "texto de prueba";
-    public bool primeraInteraccion;
-  
+    private bool dialogoPanel = true;
 
+    public Sprite ganador; // Arrastra tu Sprite aquí desde el Inspector
+    private GameObject spriteObject;
 
-    // Ejemplo de cómo cambiar las líneas de diálogo desde el propio script
+    private string texto = "texto de prueba";
+    private bool primeraInteraccion = false;
+
+    private string lineaDialogoInteractiva = "no se ha definido";
+
+    private int vidaJugadorAlIniciar = 50;
+    private bool jugadorGano = false; // Variable para saber si ganó el jugador
+
+    // Cambiar de escena por índice
+    public void ChangeSceneByIndex(int sceneIndex)
+    {
+        if (sceneIndex >= 0 && sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.Log($"Cambiando a la escena con índice {sceneIndex}...");
+            SceneManager.LoadScene(sceneIndex);
+        }
+        else
+        {
+            Debug.LogError($"El índice de la escena {sceneIndex} está fuera de rango. Asegúrate de que la escena está en Build Settings.");
+        }
+    }
+
     void Start()
     {
         texto = DatosCompartidos.Enunciado;
+
+        GameObject gameObjectConVidaBase = GameObject.Find("Player");
+        if (gameObjectConVidaBase != null)
+        {
+            personajeVida = gameObjectConVidaBase.GetComponent<PersonajeVida>();
+        }
+        else
+        {
+            Debug.LogError("No se encontró el GameObject con el componente VidaBase.");
+        }
+
+        GameObject gameObjectConConexion = GameObject.Find("managerpergamino");
+        if (gameObjectConConexion != null)
+        {
+            conexionScript = gameObjectConConexion.GetComponent<conexion>();
+        }
+        else
+        {
+            Debug.LogError("No se encontró el GameObject con el componente conexion.");
+        }
+
+        spriteObject = new GameObject("WinningSprite");
+        SpriteRenderer spriteRenderer = spriteObject.AddComponent<SpriteRenderer>();
+        spriteRenderer.sprite = ganador;
+        spriteObject.SetActive(false);
     }
 
-        void Update()
+    void Update()
     {
-
-        
-
         if (isPlayerInRange && Input.GetButtonDown("Fire1"))
         {
             if (!didDialogueStart)
@@ -60,35 +105,40 @@ public class Dialogue : MonoBehaviour
         Time.timeScale = 0f;
         StartCoroutine(ShowLine());
 
-        if (primeraInteraccion == false)
+        if (!primeraInteraccion)
         {
-            // Define nuevas líneas de diálogo aquí
             string[] newDialogueLines = {
-            "Bienvenido al juego.",
-            "Deberas caminar por el mapa para buscar los pergaminos que resuelvan el siguiente problema.",
-            DatosCompartidos.Enunciado,
-            "¡Buena suerte recuerda volver cuando creas haber encontrado la solucion!",
-            "¡Si vuelves y no tienes los pergaminos correctos perderas vida!",
-
-        };
+                "Bienvenido al juego.",
+                "Deberas caminar por el mapa para buscar los pergaminos que resuelvan el siguiente problema.",
+                DatosCompartidos.Enunciado,
+                "¡Buena suerte recuerda volver cuando creas haber encontrado la solucion!",
+                "¡Si vuelves y no tienes los pergaminos correctos perderas vida!",
+            };
 
             SetDialogueLines(newDialogueLines);
-        } else if (primeraInteraccion == true)
+
+            if (conexionScript != null)
+            {
+                conexionScript.GenerarPergaminos();
+            }
+            else
+            {
+                Debug.LogError("conexionScript no está inicializado.");
+            }
+
+        }
+        else
         {
-            // Define nuevas líneas de diálogo aquí
-            string[] newDialogueLines = {
-            "Veo que volviste, dejame revisar tu solucion.",
-            "Revisando...",
-            "Tus pergaminos no resuelven el problema",
-            "Perdiste vida, vuelve a intentarlo."
-        };
-
-
             comprobarPergaminos();
+
+            string[] newDialogueLines = {
+                "Veo que volviste, dejame revisar tu solucion.",
+                "Revisando...",
+                lineaDialogoInteractiva
+            };
+
             SetDialogueLines(newDialogueLines);
         }
-
-        
     }
 
     private void NextDialogueLine()
@@ -105,12 +155,25 @@ public class Dialogue : MonoBehaviour
             dialogueMark.SetActive(true);
             Time.timeScale = 1f;
 
-            
-            if(primeraInteraccion == false)
+            if (primeraInteraccion && !jugadorGano)
+            {
+                // Descontar vida si el jugador no ganó
+                StartCoroutine(DescontarVidaDespuesDeDialogo());
+            }
+
+            if (!primeraInteraccion)
             {
                 Debug.Log("Se ha terminado el diálogo");
                 primeraInteraccion = true;
             }
+
+            // Cambiar de escena si el jugador ganó
+            if (jugadorGano)
+            {
+                Debug.Log("Final del diálogo. El jugador ganó. Cambiando de escena...");
+                StartCoroutine(ChangeSceneAfterDelay(1f, 3)); // Cambia "3" por el índice correcto
+            }
+
         }
     }
 
@@ -142,18 +205,16 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    // Método agregado para establecer las líneas de diálogo desde otro código
     public void SetDialogueLines(string[] newLines)
     {
         dialogueLines = newLines;
     }
 
-    public void pergaminosRecogidos() {
-
-        // Obtener la instancia del inventario
+    public void pergaminosRecogidos()
+    {
         Inventario inventario = Inventario.Instance;
-
         int puestosOcupados = 0;
+
         for (int i = 0; i < inventario.ItemsInventario.Length; i++)
         {
             if (inventario.ItemsInventario[i] != null)
@@ -161,95 +222,82 @@ public class Dialogue : MonoBehaviour
                 puestosOcupados++;
             }
         }
-        Debug.Log(puestosOcupados);
-        Debug.Log(DatosCompartidos.NFragmentos); 
 
-        // comprobar si la cantidad de pergaminos es correcta para resolver el problema
         if (puestosOcupados == DatosCompartidos.NFragmentos)
         {
-            Debug.Log("La cantidad de pergaminos es correcta.");
-
             int correctosCount = 0;
             int totalItems = 0;
 
-
-            // Iterar sobre los items en el inventario p
             for (int i = 0; i < inventario.ItemsInventario.Length; i++)
             {
                 if (inventario.ItemsInventario[i] != null)
                 {
                     totalItems++;
-                    // Acceder al estado del item
                     var estado = inventario.ItemsInventario[i].Estado;
-
-                    Debug.Log($"Pergamino {i}: {estado}");
 
                     if (estado == "Correcto")
                     {
                         correctosCount++;
                     }
                 }
-                else
-                {
-                    Debug.Log($"El item en el índice {i} es null.");
-                }
             }
-
 
             if (correctosCount == totalItems && totalItems > 0)
             {
-                Debug.Log("Todos los pergaminos son correctos.");
-                Debug.Log(totalItems);
-                Debug.Log(correctosCount);
+                lineaDialogoInteractiva = "¡Genial! Tu solución es la correcta.";
+                jugadorGano = true; // Marca que el jugador ganó
+                spriteObject.SetActive(true);
+                Debug.Log("El jugador ha ganado. Esperando el fin del diálogo...");
             }
             else
             {
-                
                 Debug.Log("No todos los pergaminos son correctos.");
-                Debug.Log(totalItems);
-                Debug.Log(correctosCount);
+                lineaDialogoInteractiva = "No todos los pergaminos son correctos, perderás vida...";
             }
-
-           
         }
         else
         {
-            Debug.Log("La cantidad de pergaminos no es correcta.");
-            //descontarle vida al jugador
-            descontarVida();
+            lineaDialogoInteractiva = "La solución que propones es incorrecta.";
         }
+    }
+
+    private IEnumerator DescontarVidaDespuesDeDialogo()
+    {
+        yield return new WaitForSeconds(0.5f); // Espera un poco para asegurarse de que el diálogo haya terminado
+        descontarVida();
     }
 
     public void descontarVida()
     {
-        Debug.Log("Perdiste");
-        //ejecutar logica de perder vida
+        vidaJugadorAlIniciar -= 25;
+        if (personajeVida != null)
+        {
+            personajeVida.RecibirDaño(25);
+        }
+        else
+        {
+            Debug.LogError("personajeVida no está inicializado.");
+        }
     }
-
- 
-
 
     public void comprobarPergaminos()
     {
-        Debug.Log("Método comprobar pergaminos en Dialogue ejecutado.");
-
-        // Obtener la instancia del inventario
         Inventario inventario = Inventario.Instance;
 
-        if (inventario == null)
+        if (inventario == null || inventario.ItemsInventario == null || inventario.ItemsInventario.Length == 0)
         {
-            Debug.LogError("No se pudo obtener la instancia del inventario.");
+            lineaDialogoInteractiva = "Tu solución no es correcta, perderás vida...";
+            StartCoroutine(DescontarVidaDespuesDeDialogo());
             return;
         }
 
-        // Asegurarse de que el inventario no esté vacío
-        if (inventario.ItemsInventario == null || inventario.ItemsInventario.Length == 0)
-        {
-            Debug.LogWarning("El inventario está vacío o no inicializado.");
-            return;
-        } else { pergaminosRecogidos(); }
-
+        pergaminosRecogidos();
     }
 
-
+    private IEnumerator ChangeSceneAfterDelay(float delay, int sceneIndex)
+    {
+        Debug.Log($"Esperando {delay} segundos antes de cambiar a la escena {sceneIndex}...");
+        yield return new WaitForSecondsRealtime(delay);
+        ChangeSceneByIndex(sceneIndex);
+    }
 }

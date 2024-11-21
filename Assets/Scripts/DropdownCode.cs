@@ -155,7 +155,7 @@ public class DropdownCode : MonoBehaviour
                     DatosCompartidos.Fragmentos.Add(nuevoFragmento);
                 }
 
-                // Actualiza el número de fragmentos con el valor recibido del backend
+                // Actualiza el nï¿½mero de fragmentos con el valor recibido del backend
                 DatosCompartidos.NFragmentos = datos["nfragmentos"].AsInt;
             }
         }

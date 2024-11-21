@@ -1,11 +1,13 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PersonajeVida : VidaBase
-{   
+{
     public static Action EventoPersonajeDerrotado;
 
-    public bool Derrotado {get; private set;}
+    public bool Derrotado { get; private set; }
     public bool PuedeSerCurado => Salud < saludMax;
 
     private BoxCollider2D _boxCollider2D;
@@ -20,7 +22,20 @@ public class PersonajeVida : VidaBase
         base.Start();
         ActualizarBarraVida(Salud, saludMax);
     }
-    
+
+    public void ChangeSceneByIndex(int sceneIndex)
+    {
+        if (sceneIndex >= 0 && sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.Log($"Cambiando a la escena con índice {sceneIndex}...");
+            SceneManager.LoadScene(sceneIndex);
+        }
+        else
+        {
+            Debug.LogError($"El índice de la escena {sceneIndex} está fuera de rango. Asegúrate de que la escena está en Build Settings.");
+        }
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.T))
@@ -28,7 +43,7 @@ public class PersonajeVida : VidaBase
             RecibirDaño(10);
         }
 
-         if (Input.GetKeyDown(KeyCode.Y))
+        if (Input.GetKeyDown(KeyCode.Y))
         {
             RestaurarSalud(10);
         }
@@ -36,7 +51,7 @@ public class PersonajeVida : VidaBase
 
     public void RestaurarSalud(float cantidad)
     {
-        if(Derrotado)
+        if (Derrotado)
         {
             return;
         }
@@ -57,6 +72,7 @@ public class PersonajeVida : VidaBase
         _boxCollider2D.enabled = false;
         Derrotado = true;
         EventoPersonajeDerrotado?.Invoke();
+        StartCoroutine(ChangeSceneAfterDelay(1f, 4)); // Cambia "3" por el índice correcto
     }
 
     public void RestaurarPersonaje()
@@ -71,4 +87,12 @@ public class PersonajeVida : VidaBase
     {
         UIManager.Instance.ActualizarVidaPersonaje(vidaActual, vidaMax);
     }
+
+    private IEnumerator ChangeSceneAfterDelay(float delay, int sceneIndex)
+    {
+        Debug.Log($"Esperando {delay} segundos antes de cambiar a la escena {sceneIndex}...");
+        yield return new WaitForSecondsRealtime(delay);
+        ChangeSceneByIndex(sceneIndex);
+    }
+
 }

@@ -4,14 +4,13 @@
     "\\Assets",
     "\\Assets\\Scripts",
     "\\Assets\\Scripts\\Dialogos",
-    "\\Assets\\Scripts\\FollowCamara",
-    "\\Assets\\Scripts\\Inventario",
-    "\\Assets\\Scripts\\Inventario\\Items",
-    "\\Assets\\Scripts\\textopergaminos",
+    "\\Assets\\Scripts\\IA",
+    "\\Assets\\Scripts\\Personaje",
     "\\Assets\\Scripts\\Waypoint",
     "\\Assets\\Scripts\\Waypoint\\Editor",
+    "\\Assets\\Sprites",
     "\\Assets\\Tiles"
   ],
-  "SelectedNode": "\\Assets\\Scripts\\Inventario\\ItemPorAgregar.cs",
+  "SelectedNode": "\\Assets\\Scripts\\Dialogos\\NPCInteraccion.cs",
   "PreviewInSolutionExplorer": false
 }

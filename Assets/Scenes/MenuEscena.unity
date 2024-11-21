@@ -1672,6 +1672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmpDropdown: {fileID: 1614680881}
   tmpDropdown1: {fileID: 994569136}
+  areaSeleccionada: 
+  temaSeleccionado: 
 --- !u!1 &1396400275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,7 +2613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de18d0a26044c4a4b99ca78c2f9b477f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Area: 
+  selectedDropdownValue: 
 --- !u!4 &1736874175
 Transform:
   m_ObjectHideFlags: 0

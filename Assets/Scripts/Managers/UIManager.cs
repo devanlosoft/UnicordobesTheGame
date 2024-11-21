@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject panelInventario;
     [SerializeField] private GameObject panelCodigoPergamino;
 
-    private float vidaActual;
+    public float vidaActual;
     private float vidaMax;
 
     private float ManaActual;
@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-       
+
     }
 
     void Update()
@@ -42,27 +42,27 @@ public class UIManager : MonoBehaviour
     {
         vidaPlayer.fillAmount = Mathf.Lerp(vidaPlayer.fillAmount,
             vidaActual / vidaMax, 10f * Time.deltaTime);
-        
+
         vidaTMP.text = $"{vidaActual}/{vidaMax}";
     }
 
-    public void ActualizarVidaPersonaje (float pVidaActual, float pVidaMax)
+    public void ActualizarVidaPersonaje(float pVidaActual, float pVidaMax)
     {
         vidaActual = pVidaActual;
         vidaMax = pVidaMax;
     }
 
-    public void ActualizarManaPersonaje (float pManaActual, float pmanaMax)
+    public void ActualizarManaPersonaje(float pManaActual, float pmanaMax)
     {
         ManaActual = pManaActual;
         manaMax = pmanaMax;
     }
 
     #region Paneles
-    
+
     public void AbriCerrarPanelStats()
     {
-        panelStats.SetActive(!panelStats.activeSelf );
+        panelStats.SetActive(!panelStats.activeSelf);
 
     }
 
